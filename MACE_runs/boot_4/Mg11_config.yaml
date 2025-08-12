@@ -1,0 +1,33 @@
+name: MACE_Mg11
+num_workers: 16
+train_file: Mg11_train_main_boot_4.xyz
+test_file: Mg11_test.xyz 
+results_dir: MACE_Mg11
+E0s: average
+model: MACE
+num_interactions: 2
+num_channels: 128
+max_L: 1
+r_max: 9.0
+patience: 20
+correlation: 3
+batch_size: 32
+valid_batch_size: 32
+max_num_epochs: 200
+swa: false
+ema: true
+ema_decay: 0.99
+amsgrad: true
+error_table: TotalMAE
+device: cpu
+seed: 123
+total_charge_key: charge
+embedding_specs:
+  total_charge:
+    type: continuous
+    per: graph
+    in_dim: 1
+    emb_dim: 128
+    min: -3
+    max: 3
+use_embedding_readout: true
