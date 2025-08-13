@@ -1,0 +1,70 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+2025-08-12 15:29:58.125 INFO: ===========VERIFYING SETTINGS===========
+2025-08-12 15:29:58.129 INFO: MACE version: 0.3.14
+2025-08-12 15:29:58.146 INFO: Using CPU
+2025-08-12 15:29:58.773 INFO: ===========LOADING INPUT DATA===========
+2025-08-12 15:29:58.773 INFO: Using heads: ['Default']
+2025-08-12 15:29:58.773 INFO: Using the key specifications to parse data:
+2025-08-12 15:29:58.773 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2025-08-12 15:29:58.773 INFO: =============    Processing head Default     ===========
+2025-08-12 15:29:59.999 INFO: Training set 1/1 [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 15:30:00.003 INFO: Total Training set [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 15:30:00.003 INFO: No validation set provided, splitting training data instead.
+2025-08-12 15:30:00.603 INFO: Using random 10% of training set for validation with indices saved in: ./valid_indices_123.txt
+2025-08-12 15:30:01.477 INFO: Random Split Training set [energy: 453, stress: 0, virials: 0, dipole components: 0, head: 453, elec_temp: 0, total_charge: 453, polarizability: 0, total_spin: 0, forces: 453, charges: 0]
+2025-08-12 15:30:01.486 INFO: Random Split Validation set [energy: 50, stress: 0, virials: 0, dipole components: 0, head: 50, elec_temp: 0, total_charge: 50, polarizability: 0, total_spin: 0, forces: 50, charges: 0]
+2025-08-12 15:30:08.547 INFO: Test set 1/1 [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 15:30:08.554 INFO: Total Test set [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 15:30:08.554 INFO: Total number of configurations: train=453, valid=50, tests=[Default_Default: 172],
+2025-08-12 15:30:08.625 INFO: Atomic Numbers used: [12]
+2025-08-12 15:30:08.629 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2025-08-12 15:30:08.629 INFO: Computing average Atomic Energies using least squares regression
+2025-08-12 15:30:09.279 INFO: Atomic Energies used (z: eV) for head Default: {12: -22.484953661702086}
+2025-08-12 15:30:09.281 INFO: Processing datasets for head 'Default'
+2025-08-12 15:32:35.118 INFO: Combining 1 list datasets for head 'Default'
+2025-08-12 15:32:35.164 INFO: Head 'Default' training dataset size: 453
+2025-08-12 15:32:35.183 INFO: Computing average number of neighbors
+2025-08-12 15:32:38.913 INFO: Average number of neighbors: 8.773944805194805
+2025-08-12 15:32:38.947 INFO: During training the following quantities will be reported: energy, forces
+2025-08-12 15:32:38.953 INFO: ===========MODEL DETAILS===========
+2025-08-12 15:32:59.271 INFO: Using embedding specifications from command line arguments
+2025-08-12 15:32:59.308 INFO: Embedding specifications: {'total_charge': {'type': 'continuous', 'per': 'graph', 'in_dim': 1, 'emb_dim': 128, 'min': -3, 'max': 3}}
+2025-08-12 15:32:59.309 INFO: Building model
+2025-08-12 15:32:59.309 INFO: Message passing with 128 channels and max_L=1 (128x0e+128x1o)
+2025-08-12 15:32:59.309 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2025-08-12 15:32:59.309 INFO: 8 radial and 5 basis functions
+2025-08-12 15:32:59.309 INFO: Radial cutoff: 9.0 A (total receptive field for each atom: 18.0 A)
+2025-08-12 15:32:59.309 INFO: Distance transform for radial basis functions: None
+2025-08-12 15:32:59.309 INFO: Hidden irreps: 128x0e+128x1o
+2025-08-12 16:20:45.152 INFO: Total number of parameters: 591888
+2025-08-12 16:20:45.155 INFO: 
+2025-08-12 16:20:45.155 INFO: ===========OPTIMIZER INFORMATION===========
+2025-08-12 16:20:45.155 INFO: Using ADAM as parameter optimizer
+2025-08-12 16:20:45.155 INFO: Batch size: 32
+2025-08-12 16:20:45.155 INFO: Using Exponential Moving Average with decay: 0.99
+2025-08-12 16:20:45.155 INFO: Number of gradient updates: 2831
+2025-08-12 16:20:45.155 INFO: Learning rate: 0.01, weight decay: 5e-07
+2025-08-12 16:20:45.155 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=100.000)
+2025-08-12 16:20:49.887 INFO: Using gradient clipping with tolerance=10.000
+2025-08-12 16:20:49.898 INFO: 
+2025-08-12 16:20:49.898 INFO: ===========TRAINING===========
+2025-08-12 16:20:49.898 INFO: Started training, reporting errors on validation set
+2025-08-12 16:20:49.898 INFO: Loss metrics on validation set
+2025-08-12 17:29:21.637 INFO: Initial: head: Default, loss=0.01081821, MAE_E= 3245.53 meV, MAE_F=    0.07 meV / A
+2025-08-12 21:28:41.164 INFO: Epoch 0: head: Default, loss=0.00136968, MAE_E= 1908.74 meV, MAE_F=    0.07 meV / A
+2025-08-13 02:22:58.771 INFO: Epoch 1: head: Default, loss=0.00022024, MAE_E=  521.67 meV, MAE_F=    0.07 meV / A
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n021
+Job ID: 1117791
+Cluster: uc3
+User/Group: ka_ds7488/ka_iti
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 96
+CPU Utilized: 05:55:14
+CPU Efficiency: 0.41% of 60-00:20:48 core-walltime
+Job Wall-clock time: 15:00:13
+Memory Utilized: 5.31 GB
+Memory Efficiency: 16.58% of 32.00 GB (32.00 GB/node)

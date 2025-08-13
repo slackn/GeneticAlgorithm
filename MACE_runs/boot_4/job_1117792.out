@@ -1,0 +1,123 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+2025-08-12 14:38:04.846 INFO: ===========VERIFYING SETTINGS===========
+2025-08-12 14:38:04.847 INFO: MACE version: 0.3.14
+2025-08-12 14:38:04.847 INFO: Using CPU
+2025-08-12 14:38:05.117 INFO: ===========LOADING INPUT DATA===========
+2025-08-12 14:38:05.117 INFO: Using heads: ['Default']
+2025-08-12 14:38:05.117 INFO: Using the key specifications to parse data:
+2025-08-12 14:38:05.117 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2025-08-12 14:38:05.117 INFO: =============    Processing head Default     ===========
+2025-08-12 14:38:05.199 INFO: Training set 1/1 [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 14:38:05.201 INFO: Total Training set [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 14:38:05.201 INFO: No validation set provided, splitting training data instead.
+2025-08-12 14:38:05.204 INFO: Using random 10% of training set for validation with indices saved in: ./valid_indices_123.txt
+2025-08-12 14:38:05.205 INFO: Random Split Training set [energy: 453, stress: 0, virials: 0, dipole components: 0, head: 453, elec_temp: 0, total_charge: 453, polarizability: 0, total_spin: 0, forces: 453, charges: 0]
+2025-08-12 14:38:05.205 INFO: Random Split Validation set [energy: 50, stress: 0, virials: 0, dipole components: 0, head: 50, elec_temp: 0, total_charge: 50, polarizability: 0, total_spin: 0, forces: 50, charges: 0]
+2025-08-12 14:38:05.234 INFO: Test set 1/1 [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 14:38:05.235 INFO: Total Test set [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 14:38:05.235 INFO: Total number of configurations: train=453, valid=50, tests=[Default_Default: 172],
+2025-08-12 14:38:05.236 INFO: Atomic Numbers used: [12]
+2025-08-12 14:38:05.236 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2025-08-12 14:38:05.236 INFO: Computing average Atomic Energies using least squares regression
+2025-08-12 14:38:05.258 INFO: Atomic Energies used (z: eV) for head Default: {12: -22.468089276382447}
+2025-08-12 14:38:05.258 INFO: Processing datasets for head 'Default'
+2025-08-12 14:38:05.758 INFO: Combining 1 list datasets for head 'Default'
+2025-08-12 14:38:05.815 INFO: Head 'Default' training dataset size: 453
+2025-08-12 14:38:05.816 INFO: Computing average number of neighbors
+2025-08-12 14:38:06.169 INFO: Average number of neighbors: 8.747970779220779
+2025-08-12 14:38:06.169 INFO: During training the following quantities will be reported: energy, forces
+2025-08-12 14:38:06.169 INFO: ===========MODEL DETAILS===========
+2025-08-12 14:38:06.481 INFO: Using embedding specifications from command line arguments
+2025-08-12 14:38:06.481 INFO: Embedding specifications: {'total_charge': {'type': 'continuous', 'per': 'graph', 'in_dim': 1, 'emb_dim': 128, 'min': -3, 'max': 3}}
+2025-08-12 14:38:06.481 INFO: Building model
+2025-08-12 14:38:06.481 INFO: Message passing with 128 channels and max_L=1 (128x0e+128x1o)
+2025-08-12 14:38:06.481 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2025-08-12 14:38:06.481 INFO: 8 radial and 5 basis functions
+2025-08-12 14:38:06.481 INFO: Radial cutoff: 9.0 A (total receptive field for each atom: 18.0 A)
+2025-08-12 14:38:06.482 INFO: Distance transform for radial basis functions: None
+2025-08-12 14:38:06.482 INFO: Hidden irreps: 128x0e+128x1o
+2025-08-12 14:38:07.573 INFO: Total number of parameters: 591888
+2025-08-12 14:38:07.573 INFO: 
+2025-08-12 14:38:07.573 INFO: ===========OPTIMIZER INFORMATION===========
+2025-08-12 14:38:07.573 INFO: Using ADAM as parameter optimizer
+2025-08-12 14:38:07.573 INFO: Batch size: 32
+2025-08-12 14:38:07.573 INFO: Using Exponential Moving Average with decay: 0.99
+2025-08-12 14:38:07.573 INFO: Number of gradient updates: 2831
+2025-08-12 14:38:07.573 INFO: Learning rate: 0.01, weight decay: 5e-07
+2025-08-12 14:38:07.573 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=100.000)
+2025-08-12 14:38:07.584 INFO: Using gradient clipping with tolerance=10.000
+2025-08-12 14:38:07.584 INFO: 
+2025-08-12 14:38:07.584 INFO: ===========TRAINING===========
+2025-08-12 14:38:07.584 INFO: Started training, reporting errors on validation set
+2025-08-12 14:38:07.584 INFO: Loss metrics on validation set
+2025-08-12 14:38:09.012 INFO: Initial: head: Default, loss=0.01798429, MAE_E= 5001.06 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:38:21.305 INFO: Epoch 0: head: Default, loss=0.00234788, MAE_E= 2256.15 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:38:34.791 INFO: Epoch 1: head: Default, loss=0.00026870, MAE_E=  634.26 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:38:48.299 INFO: Epoch 2: head: Default, loss=0.00016150, MAE_E=  554.79 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:39:01.569 INFO: Epoch 3: head: Default, loss=0.00016446, MAE_E=  500.13 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:39:14.853 INFO: Epoch 4: head: Default, loss=0.00015570, MAE_E=  518.01 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:39:28.082 INFO: Epoch 5: head: Default, loss=0.00015714, MAE_E=  519.71 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:39:41.389 INFO: Epoch 6: head: Default, loss=0.00015806, MAE_E=  525.55 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:39:54.772 INFO: Epoch 7: head: Default, loss=0.00015429, MAE_E=  532.44 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:40:08.031 INFO: Epoch 8: head: Default, loss=0.00015737, MAE_E=  512.15 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:40:21.363 INFO: Epoch 9: head: Default, loss=0.00015636, MAE_E=  514.97 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:40:34.223 INFO: Epoch 10: head: Default, loss=0.00015657, MAE_E=  520.49 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:40:48.069 INFO: Epoch 11: head: Default, loss=0.00015651, MAE_E=  514.52 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:41:01.427 INFO: Epoch 12: head: Default, loss=0.00015587, MAE_E=  519.00 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:41:14.822 INFO: Epoch 13: head: Default, loss=0.00015713, MAE_E=  513.20 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:41:28.729 INFO: Epoch 14: head: Default, loss=0.00015806, MAE_E=  509.79 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:41:42.040 INFO: Epoch 15: head: Default, loss=0.00015613, MAE_E=  519.01 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:41:56.012 INFO: Epoch 16: head: Default, loss=0.00015603, MAE_E=  517.25 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:42:09.651 INFO: Epoch 17: head: Default, loss=0.00015616, MAE_E=  516.84 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:42:23.458 INFO: Epoch 18: head: Default, loss=0.00015717, MAE_E=  518.51 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:42:36.774 INFO: Epoch 19: head: Default, loss=0.00015721, MAE_E=  517.64 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:42:50.115 INFO: Epoch 20: head: Default, loss=0.00015725, MAE_E=  517.10 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:43:02.957 INFO: Epoch 21: head: Default, loss=0.00015519, MAE_E=  521.81 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:43:16.431 INFO: Epoch 22: head: Default, loss=0.00015568, MAE_E=  520.97 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:43:30.017 INFO: Epoch 23: head: Default, loss=0.00015594, MAE_E=  518.34 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:43:43.943 INFO: Epoch 24: head: Default, loss=0.00015669, MAE_E=  517.26 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:43:57.336 INFO: Epoch 25: head: Default, loss=0.00015773, MAE_E=  515.79 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:44:10.538 INFO: Epoch 26: head: Default, loss=0.00015589, MAE_E=  520.49 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:44:23.519 INFO: Epoch 27: head: Default, loss=0.00015587, MAE_E=  520.87 meV, MAE_F=    0.06 meV / A
+2025-08-12 14:44:23.520 INFO: Stopping optimization after 20 epochs without improvement
+2025-08-12 14:44:23.520 INFO: Training complete
+2025-08-12 14:44:23.520 INFO: 
+2025-08-12 14:44:23.520 INFO: ===========RESULTS===========
+2025-08-12 14:44:23.672 INFO: Loading checkpoint: ./checkpoints/MACE_boot_4_run-123_epoch-7.pt
+2025-08-12 14:44:23.714 INFO: Loaded Stage one model from epoch 7 for evaluation
+2025-08-12 14:44:23.714 INFO: Saving model to checkpoints/MACE_boot_4_run-123.model
+2025-08-12 14:44:23.907 INFO: Compiling model, saving metadata to MACE_boot_4_compiled.model
+2025-08-12 14:44:24.511 INFO: Computing metrics for training, validation, and test sets
+2025-08-12 14:44:24.512 INFO: Skipping evaluation for heads: ['pt_head']
+2025-08-12 14:44:24.512 INFO: Evaluating train_Default ...
+2025-08-12 14:44:29.506 INFO: Evaluating valid_Default ...
+2025-08-12 14:44:31.405 INFO: Error-table on TRAIN and VALID:
++---------------+-------------+-----------------+------------------+
+|  config_type  | MAE E / meV | MAE F / meV / A | relative F MAE % |
++---------------+-------------+-----------------+------------------+
+| train_Default |      452.4  |          0.1    |       100.23     |
+| valid_Default |      532.4  |          0.1    |       100.09     |
++---------------+-------------+-----------------+------------------+
+2025-08-12 14:44:31.405 INFO: Evaluating Default_Default ...
+2025-08-12 14:44:34.233 INFO: Error-table on TEST:
++-----------------+-------------+-----------------+------------------+
+|   config_type   | MAE E / meV | MAE F / meV / A | relative F MAE % |
++-----------------+-------------+-----------------+------------------+
+| Default_Default |     5151.9  |          0.1    |       100.41     |
++-----------------+-------------+-----------------+------------------+
+2025-08-12 14:44:36.010 INFO: Done
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n026
+Job ID: 1117792
+Cluster: uc3
+User/Group: ka_ds7488/ka_iti
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 96
+CPU Utilized: 04:10:47
+CPU Efficiency: 35.06% of 11:55:12 core-walltime
+Job Wall-clock time: 00:07:27
+Memory Utilized: 5.75 GB
+Memory Efficiency: 17.98% of 32.00 GB (32.00 GB/node)

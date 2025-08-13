@@ -1,0 +1,60 @@
+2025-08-12 13:01:32.524 INFO: ===========VERIFYING SETTINGS===========
+2025-08-12 13:01:32.529 INFO: MACE version: 0.3.14
+2025-08-12 13:01:32.529 INFO: Using CPU
+2025-08-12 13:01:32.658 INFO: ===========LOADING INPUT DATA===========
+2025-08-12 13:01:32.658 INFO: Using heads: ['Default']
+2025-08-12 13:01:32.658 INFO: Using the key specifications to parse data:
+2025-08-12 13:01:32.658 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2025-08-12 13:01:32.658 INFO: =============    Processing head Default     ===========
+2025-08-12 13:02:34.893 INFO: ===========VERIFYING SETTINGS===========
+2025-08-12 13:02:34.894 INFO: MACE version: 0.3.14
+2025-08-12 13:02:34.894 INFO: Using CPU
+2025-08-12 13:02:35.007 INFO: ===========LOADING INPUT DATA===========
+2025-08-12 13:02:35.007 INFO: Using heads: ['Default']
+2025-08-12 13:02:35.007 INFO: Using the key specifications to parse data:
+2025-08-12 13:02:35.007 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2025-08-12 13:02:35.007 INFO: =============    Processing head Default     ===========
+2025-08-12 13:02:35.129 INFO: Training set 1/1 [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 13:02:35.131 INFO: Total Training set [energy: 503, stress: 0, virials: 0, dipole components: 0, head: 503, elec_temp: 0, total_charge: 503, polarizability: 0, total_spin: 0, forces: 503, charges: 0]
+2025-08-12 13:02:35.132 INFO: No validation set provided, splitting training data instead.
+2025-08-12 13:02:35.134 INFO: Using random 10% of training set for validation with indices saved in: ./valid_indices_123.txt
+2025-08-12 13:02:35.137 INFO: Random Split Training set [energy: 453, stress: 0, virials: 0, dipole components: 0, head: 453, elec_temp: 0, total_charge: 453, polarizability: 0, total_spin: 0, forces: 453, charges: 0]
+2025-08-12 13:02:35.137 INFO: Random Split Validation set [energy: 50, stress: 0, virials: 0, dipole components: 0, head: 50, elec_temp: 0, total_charge: 50, polarizability: 0, total_spin: 0, forces: 50, charges: 0]
+2025-08-12 13:02:35.182 INFO: Test set 1/1 [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 13:02:35.183 INFO: Total Test set [energy: 172, stress: 0, virials: 0, dipole components: 0, head: 172, elec_temp: 0, total_charge: 172, polarizability: 0, total_spin: 0, forces: 172, charges: 0]
+2025-08-12 13:02:35.183 INFO: Total number of configurations: train=453, valid=50, tests=[Default_Default: 172],
+2025-08-12 13:02:35.184 INFO: Atomic Numbers used: [12]
+2025-08-12 13:02:35.184 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2025-08-12 13:02:35.185 INFO: Computing average Atomic Energies using least squares regression
+2025-08-12 13:02:35.186 INFO: Atomic Energies used (z: eV) for head Default: {12: -22.483892011598698}
+2025-08-12 13:02:35.186 INFO: Processing datasets for head 'Default'
+2025-08-12 13:02:35.802 INFO: Combining 1 list datasets for head 'Default'
+2025-08-12 13:02:35.887 INFO: Head 'Default' training dataset size: 453
+2025-08-12 13:02:35.888 INFO: Computing average number of neighbors
+2025-08-12 13:02:36.263 INFO: Average number of neighbors: 8.775974025974026
+2025-08-12 13:02:36.263 INFO: During training the following quantities will be reported: energy, forces
+2025-08-12 13:02:36.263 INFO: ===========MODEL DETAILS===========
+2025-08-12 13:02:36.662 INFO: Using embedding specifications from command line arguments
+2025-08-12 13:02:36.663 INFO: Embedding specifications: {'total_charge': {'type': 'continuous', 'per': 'graph', 'in_dim': 1, 'emb_dim': 128, 'min': -3, 'max': 3}}
+2025-08-12 13:02:36.663 INFO: Building model
+2025-08-12 13:02:36.663 INFO: Message passing with 128 channels and max_L=1 (128x0e+128x1o)
+2025-08-12 13:02:36.663 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2025-08-12 13:02:36.663 INFO: 8 radial and 5 basis functions
+2025-08-12 13:02:36.663 INFO: Radial cutoff: 9.0 A (total receptive field for each atom: 18.0 A)
+2025-08-12 13:02:36.663 INFO: Distance transform for radial basis functions: None
+2025-08-12 13:02:36.664 INFO: Hidden irreps: 128x0e+128x1o
+2025-08-12 13:02:38.033 INFO: Total number of parameters: 591888
+2025-08-12 13:02:38.033 INFO: 
+2025-08-12 13:02:38.033 INFO: ===========OPTIMIZER INFORMATION===========
+2025-08-12 13:02:38.034 INFO: Using ADAM as parameter optimizer
+2025-08-12 13:02:38.034 INFO: Batch size: 32
+2025-08-12 13:02:38.034 INFO: Using Exponential Moving Average with decay: 0.99
+2025-08-12 13:02:38.034 INFO: Number of gradient updates: 2831
+2025-08-12 13:02:38.034 INFO: Learning rate: 0.01, weight decay: 5e-07
+2025-08-12 13:02:38.034 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=100.000)
+2025-08-12 13:02:38.036 INFO: Using gradient clipping with tolerance=10.000
+2025-08-12 13:02:38.037 INFO: 
+2025-08-12 13:02:38.037 INFO: ===========TRAINING===========
+2025-08-12 13:02:38.037 INFO: Started training, reporting errors on validation set
+2025-08-12 13:02:38.037 INFO: Loss metrics on validation set
+2025-08-12 13:02:42.165 INFO: Initial: head: Default, loss=0.01106554, MAE_E= 3418.04 meV, MAE_F=    0.06 meV / A
