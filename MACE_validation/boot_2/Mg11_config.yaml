@@ -1,7 +1,7 @@
 name: MACE_Mg11
 num_workers: 16
 train_file: Mg11_train_main_boot_1.xyz
-valid_file: Mg_11_valid.xyz
+valid_file: Mg11_valid.xyz
 test_file: Mg11_test.xyz 
 results_dir: MACE_Mg11
 E0s: average
