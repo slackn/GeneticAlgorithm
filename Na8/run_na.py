@@ -15,11 +15,11 @@ from ase.calculators.singlepoint import SinglePointCalculator
 import numpy as np
 import shutil
 from pathlib import Path
-
+import os
 
 
 # === Parameters ===
-population_size = 8
+population_size = 20
 mutation_probability = 0.5
 n_to_test = 30
 db_file = 'Na8_q0.db'  # use the sodium DB created by StartGenerator
@@ -61,15 +61,17 @@ params = {
     'total charge': 0,
     'multiplicity': 1,
     'scf iterations': 1000,
-    'basis set name': 'def2-TZVP',
-    'density functional': 'pbe'
+    #'basis set name': 'def2-TZVP',
+    #'density functional': 'pbe'
     #'basis set name':'dhf-TZVP',
     #'density functional':'tpss'
 }
 #to mimic the paper I use their parameters
 
 def get_dft_calculator():
-    return Turbomole(**params)
+    #calc_dir= "calc_dir"
+    #restart_flag=os.path.exists(calc_dir)
+    return Turbomole( **params)
 
 
 
@@ -85,7 +87,7 @@ while da.get_number_of_unrelaxed_candidates() > 0:
 
     try:
         print(f"[GA] Relaxing offspring confid={confid}")
-        dyn.run(fmax=0.005, steps=500)
+        dyn.run(fmax=0.05, steps=500)
         print(f"[GA] Offspring {confid} converged in {dyn.nsteps} steps.")
     except RuntimeError as e:
         print(f"[Relax] Skipping structure due to SCF failure: {e}")
@@ -144,6 +146,8 @@ for i in range(n_to_test):
     print(f"   Parent 2: confid={confid2}")
 
     child, description = pairing.get_new_individual([parent1, parent2])
+    confid = child.info.get('confid', 'N/A')
+
     if child is None:
         print("[GA] Pairing failed. Skipping.")
         continue

@@ -51,6 +51,7 @@ sg = StartGenerator(
 # 7. Generate and write the clusters
 for _ in range(n_to_generate):
     atoms = sg.get_new_candidate()
+    atoms.info["charge"]=charge #needed to add this for MACE charge embedding
     atoms.charge = charge
     atoms.set_initial_charges([charge / n_atoms] * n_atoms)
     print("generated")

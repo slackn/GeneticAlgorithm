@@ -1,0 +1,293 @@
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=121bd9e9098540c18cccae4d46588aef key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"CutAndSplicePairing\", \"raw_score\": 35306.48922352768, \"generation\": 0, \"relaxed\": 1, \"gaid\": 53}" data="_JSON {\"parents\": [47, 16]}" confid=53 relax_id=54 energy=-35306.48922352768 free_energy=-35306.48922352768 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    2.9426    3.2489    3.3811 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.3803    6.7354    3.7009 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.0505    3.0777    4.9518 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8936    4.9503    2.0096 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.0432    4.4564    6.5042 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.9411    6.5416    4.7457 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.2785    4.8846    7.7512 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.3536    7.7541    6.7195 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  5  1  0  0  0  0
+  2  8  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  6  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=6af8ece1556046aaa4d3e62713aff22e key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 11, \"raw_score\": 35306.45930030935}" confid=11 relax_id=31 energy=-35306.45930030935 free_energy=-35306.45930030935 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    3.2659    3.2713    6.3932 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.0319    6.8223    6.2977 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.1824    3.2309    3.1456 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.7405    5.2859    4.5253 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.9948    6.8832    3.5096 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.1957    4.7246    3.4522 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8638    5.5189    7.4332 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.5201    2.3628    6.1657 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  2  7  1  0  0  0  0
+  3  6  1  0  0  0  0
+  5  4  1  0  0  0  0
+  8  1  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=2fa616bc5a344412bb9f3ceadeac2cca key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 15, \"raw_score\": 35306.440967318296}" confid=15 relax_id=35 energy=-35306.440967318296 free_energy=-35306.440967318296 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    7.0810    3.4098    6.9469 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.6145    5.3515    3.8679 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.3652    2.7550    3.8534 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.7222    3.9223    6.7317 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.8472    7.2319    6.2512 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.9891    5.0204    3.4032 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.2065    7.6057    3.6168 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.2647    6.6820    6.8375 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  5  4  1  0  0  0  0
+  6  3  1  0  0  0  0
+  7  2  1  0  0  0  0
+  8  1  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=205ee403c263451c83b2a83cdbe763b5 key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"CutAndSplicePairing\", \"raw_score\": 35306.4093896477, \"generation\": 0, \"relaxed\": 1, \"gaid\": 115}" data="_JSON {\"parents\": [15, 113]}" confid=115 relax_id=116 energy=-35306.4093896477 free_energy=-35306.4093896477 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    7.0594    4.1557    6.7239 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.2019    2.4571    3.9549 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.6902    3.9973    6.7840 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.5780    7.2609    6.0412 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.8973    4.8643    3.4868 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    6.9941    7.3778    5.8410 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.0567    7.3664    2.7577 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    7.3420    4.9475    3.3618 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  4  3  1  0  0  0  0
+  6  1  1  0  0  0  0
+  8  2  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=8f27cb8fdcb947fb9a767dabdbe625f3 key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 12, \"raw_score\": 35306.39236794612}" confid=12 relax_id=32 energy=-35306.39236794612 free_energy=-35306.39236794612 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    7.3704    7.3931    6.7279 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.9660    6.0853    7.9154 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8182    2.4443    4.0875 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.5965    5.8556    3.7689 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.9955    4.4039    4.8963 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8444    4.3243    6.9443 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.2188    7.8579    5.2320 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.6185    6.4148    2.1246 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  3  6  1  0  0  0  0
+  4  1  1  0  0  0  0
+  7  2  1  0  0  0  0
+  8  5  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=b961db80b4f247f39f1d789498b03447 key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"CutAndSplicePairing\", \"raw_score\": 35306.38660857464, \"generation\": 0, \"relaxed\": 1, \"gaid\": 64}" data="_JSON {\"parents\": [21, 9]}" confid=64 relax_id=65 energy=-35306.38660857464 free_energy=-35306.38660857464 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    4.0263    1.8452    3.7111 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.6596    4.2011    3.6618 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.0053    7.5720    3.2004 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8191    3.4792    6.8160 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.3836    5.3113    3.8284 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    4.3409    3.4350    6.7278 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.6191    6.4247    7.0537 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    6.0520    6.4220    6.4717 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  6  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  8  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=82ec7b008b6541bc99a7da3d33d5c951 key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"CutAndSplicePairing\", \"raw_score\": 35306.37231944045, \"generation\": 0, \"relaxed\": 1, \"gaid\": 90}" data="_JSON {\"parents\": [19, 4]}" confid=90 relax_id=91 energy=-35306.37231944045 free_energy=-35306.37231944045 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  2  0  0  0  0  0  0  0  0999 V2000
+    3.8396    3.3825    4.5047 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.3615    3.7589    3.8875 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    5.8877    3.3527    7.1707 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.3456    5.7339    7.2024 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    1.7893    4.8254    2.4633 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.2906    5.9260    2.1938 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.3131    7.5538    4.4176 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.3732    6.6757    5.5451 Na  0  0  0  0  0 15  0  0  0  0  0  0
+  5  1  1  0  0  0  0
+  7  4  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=ae07ac914ea249cc8fa4eb7105a79ea6 key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 7, \"raw_score\": 35306.37135376279}" confid=7 relax_id=27 energy=-35306.37135376279 free_energy=-35306.37135376279 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    4.0860    3.4305    6.0598 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.7028    6.7544    6.6452 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.0283    5.7940    3.1713 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.3250    4.5326    6.5470 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.7176    7.8940    5.0771 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.9508    3.4647    2.1721 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.5389    6.0471    4.0689 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    6.7802    2.3937    3.9302 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  6  3  1  0  0  0  0
+  8  4  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=c9bdbba2f42c4f99a0a492d075235030 key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 4, \"raw_score\": 35306.365277650766}" confid=4 relax_id=24 energy=-35306.365277650766 free_energy=-35306.365277650766 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  2  0  0  0  0  0  0  0  0999 V2000
+    3.9368    4.1010    6.2855 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.4055    4.6533    6.6806 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    5.9992    4.0136    3.6291 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.5917    3.6711    3.0850 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    5.6122    6.9523    2.0006 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.1355    7.1430    7.4851 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    2.8886    6.9251    4.0850 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.9451    7.4397    5.3783 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  3  1  1  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=b7ceac50835c428aba45f6c8ff34ad57 key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 9, \"raw_score\": 35306.33678558807}" confid=9 relax_id=29 energy=-35306.33678558807 free_energy=-35306.33678558807 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    2.5267    4.8671    3.6773 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.3479    1.8574    4.2939 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    5.9724    4.7861    4.2150 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.6899    7.6322    4.3252 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.7156    3.5681    7.4254 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.5669    6.2846    6.8751 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    4.1420    7.8256    4.1309 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.9481    6.6789    7.2900 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  7  1  0  0  0  0
+  3  4  1  0  0  0  0
+  8  5  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:initial_charges:R:1:forces:R:3 unique_id=565efe472a084eefa04c1c36a0870eeb key_value_pairs="_JSON {\"origin\": \"StartingCandidateUnrelaxed\", \"relaxed\": 1, \"generation\": 0, \"extinct\": 0, \"gaid\": 19, \"raw_score\": 35306.330380435975}" confid=19 relax_id=39 energy=-35306.330380435975 free_energy=-35306.330380435975 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    4.3174    7.2822    4.0297 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.2024    3.5046    4.3145 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.9462    5.9356    5.7527 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    6.6328    5.4155    2.2987 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.4090    2.6080    4.1910 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.6265    2.9039    7.3648 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.7807    5.7986    7.0582 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    1.7444    5.0948    3.0001 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  7  1  0  0  0  0
+  4  5  1  0  0  0  0
+  8  2  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=770920ea5b704b39b86d4c19737f9c25 key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"CutAndSplicePairing\", \"raw_score\": 35306.327064211575, \"generation\": 0, \"relaxed\": 1, \"gaid\": 79}" data="_JSON {\"parents\": [9, 7]}" confid=79 relax_id=80 energy=-35306.327064211575 free_energy=-35306.327064211575 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    6.9252    5.0341    3.8677 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.5975    8.1531    4.8921 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.5206    7.4341    3.1697 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.1875    6.5645    6.8012 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.5323    3.3724    6.2163 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.9209    4.2017    2.4176 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.1994    5.7266    5.1351 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    6.2320    1.7529    3.6963 Na  0  0  0  0  0 15  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  5  4  1  0  0  0  0
+  6  3  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=5cb7c848b0e24956942578b7dcb0debf key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"RattleMutation\", \"raw_score\": 35306.309435723306, \"generation\": 0, \"relaxed\": 1, \"gaid\": 126}" data="_JSON {\"parents\": [126]}" confid=126 relax_id=128 energy=-35306.309435723306 free_energy=-35306.309435723306 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    2.7396    4.5907    6.1837 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.8208    7.5241    7.3968 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    4.4484    2.6551    4.1383 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.6628    3.6881    3.8111 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    1.9133    4.6787    2.7445 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    5.2507    5.6614    1.8831 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.2535    7.7391    3.7532 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.0656    6.2775    5.2143 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  3  1  1  0  0  0  0
+  4  8  1  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=0ada52da86e44d1db2b3341cfe95b8fe key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"RattleMutation\", \"raw_score\": 35306.30516905961, \"generation\": 0, \"relaxed\": 1, \"gaid\": 107}" data="_JSON {\"parents\": [107]}" confid=107 relax_id=109 energy=-35306.30516905961 free_energy=-35306.30516905961 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  3  0  0  0  0  0  0  0  0999 V2000
+    4.0390    7.7204    3.4009 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    3.0867    4.5691    6.3811 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.3256    5.9648    5.1998 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.2414    7.7347    7.0737 Na  0  0  0  0  0 15  0  0  0  0  0  0
+    4.4622    2.3905    4.1980 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8270    5.1253    1.9341 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8441    3.1958    4.3484 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.4133    4.7386    2.8809 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  5  2  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  3  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=5db9f3828ae34182a9eb79e6aa239be1 key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"MirrorMutation\", \"raw_score\": 35306.0769743492, \"generation\": 0, \"relaxed\": 1, \"gaid\": 98}" data="_JSON {\"parents\": [98]}" confid=98 relax_id=100 energy=-35306.0769743492 free_energy=-35306.0769743492 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    5.1832    7.5037    3.3017 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.1053    7.7236    6.6119 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.0447    4.7662    3.5291 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.9840    4.9932    6.8442 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.4090    5.5958    3.3876 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.3710    5.8428    6.6962 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.3089    2.8850    3.6134 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.2583    3.1185    6.9284 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0  0  0  0
+  2  6  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  7  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=0de28a97636c468eb4d727edc679a25f key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"MirrorMutation\", \"raw_score\": 35306.07149797613, \"generation\": 0, \"relaxed\": 1, \"gaid\": 68}" data="_JSON {\"parents\": [68]}" confid=68 relax_id=70 energy=-35306.07149797613 free_energy=-35306.07149797613 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    4.2500    1.9921    4.5797 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.1700    5.2596    2.4051 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.4470    2.4873    3.7956 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.9712    4.7044    3.1485 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.6576    3.6499    7.4304 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.5806    6.9161    5.2533 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8629    4.1776    6.7039 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.3902    6.3947    6.0515 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  1  1  0  0  0  0
+  8  5  1  0  0  0  0
+M  END
+$$$$
+Lattice="10.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0" Properties=species:S:1:pos:R:3:tags:I:1:forces:R:3 unique_id=3563089cc7fc4b429e3e532a7a921bef key_value_pairs="_JSON {\"extinct\": 0, \"origin\": \"MirrorMutation\", \"raw_score\": 35306.0642202093, \"generation\": 0, \"relaxed\": 1, \"gaid\": 87}" data="_JSON {\"parents\": [87]}" confid=87 relax_id=89 energy=-35306.0642202093 free_energy=-35306.0642202093 pbc="F F F"
+ OpenBabel08042513053D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+    2.8997    5.1458    3.3694 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.7212    2.3442    3.5778 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.2050    7.5348    3.3140 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    7.0403    4.7494    3.5487 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    2.7838    5.3377    6.6789 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    4.6046    2.5373    6.9027 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    5.0910    7.7243    6.5957 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    6.9253    4.9397    6.8291 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+M  END
