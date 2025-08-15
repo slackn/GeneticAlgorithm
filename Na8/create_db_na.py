@@ -12,7 +12,7 @@ n_to_generate = 20
 db_name = f'Na{n_atoms}_q{charge}.db'
 
 # Compute bounding cube side length
-side = 2 * (0.5 + ((3 * n_atoms) / (4 * np.pi * np.sqrt(2))) ** (1/3))
+side = 4
 
 # 1. Define a fake slab (empty unit cell with no atoms)
 # This is the simulation box
@@ -48,8 +48,10 @@ sg = StartGenerator(
 )
 
 # 7. Generate and write the clusters
-for _ in range(n_to_generate):
+for i in range(n_to_generate):
     atoms = sg.get_new_candidate()
     atoms.charge = charge
     atoms.set_initial_charges([charge / n_atoms] * n_atoms)
+    # Print structure index and charge
+    print(f"Generating structure {i+1}/{n_to_generate} with total charge = {atoms.charge}")
     d.add_unrelaxed_candidate(atoms)
